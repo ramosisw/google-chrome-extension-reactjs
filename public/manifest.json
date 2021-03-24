@@ -1,0 +1,25 @@
+{
+    "update_url": "https://clients2.google.com/service/update2/crx",
+    "manifest_version" : 2,
+    "name"             : "MyExtension",
+    "short_name"       : "myextension",
+    "version"          : "1.0",
+    "description"      : "Short description",
+    "options_page"     : "index.html",
+    "background": {
+        "scripts": [
+            "static/js/background.js"
+        ]
+    },
+    "permissions": [
+        "notifications"
+    ],
+    "icons": {
+        "16"  : "icons/icon16x16.png",
+        "19"  : "icons/icon19x19.png",
+        "38"  : "icons/icon38x38.png",
+        "48"  : "icons/icon48x48.png",
+        "128" : "icons/icon128X128.png",
+        "256" : "icons/icon256X256.png"
+    }
+}
