@@ -1,6 +1,7 @@
 #extension & builds
 /build
 /dist
+dist.zip
 # /public/icons
 
 # Logs
